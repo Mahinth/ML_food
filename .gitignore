@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML Models (keep model_info.json)
+src/models/*.h5
+src/models/*.pkl
+!src/models/model_info.json
+
+# Data
+src/dataset/*.xlsx
+src/dataset/*.csv
+!src/dataset/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Streamlit
+.streamlit/
+
+# TensorFlow
+*.ckpt
+*.pb
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Node (if used)
+node_modules/
+package-lock.json
