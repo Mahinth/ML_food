@@ -52,3 +52,6 @@ Make sure to type the URL manually in browser address bar:
 ```
 http://localhost:8888/index.html
 ```
+
+
+.venv\Scripts\streamlit.exe run app.py      
